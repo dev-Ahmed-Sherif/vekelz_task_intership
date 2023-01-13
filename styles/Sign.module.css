@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.page_link {
+  color: #a162f7;
+  cursor: pointer;
+}
+
+.buttons {
+  padding: 1.5rem 0;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 10px;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  border: 1px solid #e6e8ec;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.login {
+  background-color: #a162f7;
+  color: #fffaf7;
+  margin: 1.5rem 0;
+}
+
+.buttons .button {
+  width: 246px;
+  padding: 10px 30px;
+}
+
+.fa {
+  background-color: #4bc3ef;
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.fa img {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.or {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.or p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 10px;
+  width: 10px;
+  color: #b1b5c4;
+  /* margin: auto; */
+}
+
+.or hr {
+  background-color: #e6e8ec;
+  width: 230px;
+  color: #b1b5c4;
+}
+
+.form {
+  margin: 20px 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #f4f5f6;
+  box-shadow: 0px 10px 110px 1px rgb(59 59 59 / 8%);
+  border-radius: 10px;
+}
+
+.form_input {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form_input input {
+  padding: 10px;
+  border: 2px solid #e6e8ec;
+  border-radius: 8px;
+  color: #b1b5c4;
+}
+
+.form_input img {
+  width: 18px;
+  position: absolute;
+  right: 1rem;
+  top: 2.4rem;
+}
+
+.form_buttom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.check {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 14px;
+}
+
+.check input,
+.check label {
+  cursor: pointer;
+}
+
+.check label {
+  color: #b1b5c4;
+}
