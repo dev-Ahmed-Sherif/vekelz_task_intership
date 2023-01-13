@@ -5,8 +5,8 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import google from "../public/icon.svg";
 // import { AnimatedTheme } from "@amcharts/amcharts5/themes/Animated";
-import * as am5 from "@amcharts/amcharts5";
-import * as am5xy from "@amcharts/amcharts5/xy";
+//import * as am5 from "@amcharts/amcharts5";
+//import * as am5xy from "@amcharts/amcharts5/xy";
 
 const inter = Inter({ subsets: ["latin"] });
 
